@@ -19,7 +19,18 @@ public static void booleanToString(bool b)
 	return b.ToString();
 }
 
+// Returning Strings
 public static void returnGreeting(string name)
 {
 	return $"Hello, {name} how are you doing today?";
+}
+
+public static void summation(int num)
+{
+	int sum = 0;
+	for (int i = 0; i <= num; i++)
+	{
+		sum += 1;
+	}
+	return sum;
 }
