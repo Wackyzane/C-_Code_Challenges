@@ -14,7 +14,7 @@ public class Class1
 }
 
 // Coding Challenge to turn Bollean into Strings
-public static void helloWorld
+public static void booleanToString(bool b)
 {
-
+	return b.ToString();
 }
