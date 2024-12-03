@@ -18,3 +18,8 @@ public static void booleanToString(bool b)
 {
 	return b.ToString();
 }
+
+public static void returnGreeting(string name)
+{
+	return $"Hello, {name} how are you doing today?";
+}
