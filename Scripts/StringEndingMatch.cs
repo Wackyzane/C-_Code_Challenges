@@ -8,3 +8,9 @@ public static bool Solution(string str, string ending)
     if (str.Contains(ending) && str[str.Length - 1] == ending[ending.Length - 1]) return true;
     return false;
 }
+
+// Or just This...
+public bool EndsWithSolution(string str, string ending)
+{
+    return str.EndsWith(ending);
+}
